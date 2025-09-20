@@ -4,10 +4,10 @@ spring:
   application:
     name: Customer
   datasource:
-    url: jdbc:mysql://localhost:3306/spr240
-    username: root
-    password: Imaaz
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:postgresql://dpg-d37acl3e5dus7396ej30-a.oregon-postgres.render.com:5432/customer_4viz
+    username: customer_4viz_user
+    password: G8GwPwEbHVEo0TuIsT6gfCVr4PP44ZxE
+    driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
     hibernate:
